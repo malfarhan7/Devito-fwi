@@ -17,4 +17,4 @@ dependencies:
   - jupyter
   - pytest
   - pip:
-    - devito==4.8.3
+    - devito

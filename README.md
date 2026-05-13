@@ -29,6 +29,7 @@ The following notebooks are provided:
 - :orange_book: ``acoustic/Data_visualization.ipynb``: notebook showcasing different visualization routines;
 - :orange_book: ``acoustic/Acoustic_RTM.ipynb``: notebook performing acoustic RTM;
 - :orange_book: ``acoustic/AcousticVel_L2_1stage.ipynb``: notebook performing acoustic FWI parametrized in velocity with entire data;
+- :orange_book: ``acoustic/AcousticVel3D_L2_1stage.ipynb``: notebook performing acoustic 3D FWI parametrized in velocity with entire data;
 - :orange_book: ``acoustic/AcousticVel_L2snap_1stage.ipynb``: notebook performing acoustic FWI parametrized in velocity with entire data and wavefield snap-shotting for the imaging condition;
 - :orange_book: ``acoustic/AcousticVel_L2_1stagewrapper.ipynb``: notebook performing acoustic FWI parametrized in velocity with entire data using AcousticFWI wrapper;
 - :orange_book: ``acoustic/AcousticVel_L2torch_1stage.ipynb``: notebook performing acoustic FWI parametrized in velocity with entire data using Torch AD-based objective function;
@@ -47,6 +48,7 @@ The following scripts are also provided:
 - :orange_book: ``acoustic/Gradient_snap.ipynb``: notebook computing a single gradient with wavefield snap-shotting (used together with `Gradient_full` to assess memory footprint reduction in case of snap-shotting);
 - :orange_book: ``acoustic/Gradient_comparison_mpi.ipynb``: notebook computing gradients distributed across sources;
 - :orange_book: ``acoustic/AcousticVel_L2_1stage.ipynb``: notebook performing acoustic FWI parametrized in velocity distributed across sources;
+- :scroll: ``acoustic/AcousticVel3D_L2_1stage.ipynb``: script performing acoustic 3D FWI parametrized in velocity distributed across sources;
 - :orange_book: ``acoustic/AcousticVel_L2graddescent_1stage.py``: notebook performing acoustic FWI parametrized in velocity distributed across sources with gradient descent algorithm;
 - :orange_book: ``acoustic/AcousticVel_L2PDTV_1stage.ipynb``: notebook performing acoustic FWI parametrized in velocity distributed across source with primal-dual  algorithm and isotropic total-variation regularization.
 
@@ -84,6 +86,12 @@ and remember to always activate the environment by typing:
 ```
 conda activate devitofwi_mpi
 ```
+## Contributors :busts_in_silhouette:
+
+- Matteo Ravasi (@mrava87)
+- Mustafa Alfarhan (@malfarhan7)
+- Fuqiang Chen (@i5fchen)
+- Muhammad Hasyim (@hatsyim)
 
 ## To do list :memo:
 
